@@ -138,6 +138,10 @@ main div:first-child .box:first-child img{
 }
 
 /* strategic planning */
+.strategic-planning div:first-child{
+    padding-top: 25px;
+}
+
 .strategic-planning div{
     flex-direction: column;
     align-items: center;
