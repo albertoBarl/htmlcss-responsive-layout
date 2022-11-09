@@ -20,6 +20,14 @@
     margin: 0 auto;
 }
 
+.width-80{
+    width: 80%;
+}
+
+.padding-lr25{
+    padding: 0px 25px;
+}
+
 /* HEADER */
 header{
     width: 100%;
@@ -27,7 +35,6 @@ header{
 }
 
 .nav{
-    width: 90%;
     justify-content: space-between;
     align-items: center;
 }
@@ -69,6 +76,65 @@ header{
 
 
 /* MAIN */
+main div:first-child, div:nth-child(3), div:nth-child(5){
+    flex-direction: column;
+}
+
 .back-purple{
+    flex-direction: column;
     background-color: purple;
 }
+
+.box{
+    flex-direction: column;
+    align-items: center;
+    background-color: skyblue;
+    border-radius: 20px;
+    min-height: 200px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+
+/* demo application */
+.box:first-child{
+    text-align: left;
+}
+
+.box-head{
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-head i{
+    font-size: 75px;
+    padding-top: 25px;
+}
+
+.box-head h3{
+    font-size: x-large;
+    margin: 25px 0px;
+}
+
+.box p:not(.box:first-child p){
+    padding-bottom: 25px;
+}
+
+main div:first-child .box:first-child{
+    margin-top: 25px;
+}
+
+main div:first-child .box:first-child *{
+    margin-top: 25px;
+}
+
+main div:first-child .box:first-child img{
+    width: 80%;
+    height: auto;
+}
+
+.box:last-child{
+    margin-bottom: 50px;
+}
+
+/*  */
