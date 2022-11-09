@@ -173,3 +173,25 @@ main div:first-child .box:first-child img{
     padding: 20px;
     margin-top: 20px;
 }
+
+/* FOOTER */
+footer{
+    background-color: #333333;
+}
+
+footer *:not(a){
+    color: white;
+}
+
+.footer{
+    flex-direction: column;
+    text-align: center;
+}
+
+footer a{
+    color: #9593e6;
+}
+
+.footer div{
+    margin: 25px 0px;
+}
