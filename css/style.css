@@ -43,6 +43,11 @@
     border-radius: 20px;
 }
 
+.margin-tb25{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
 
 /* HEADER */
 header{
@@ -220,8 +225,20 @@ main div:first-child .box:first-child img{
 
 
 /* benfits */
+.back-white{
+    background-color: white;
+}
 
+.benefits .flex{
+    flex-direction: column;
+}
 
+.benefits a{
+    width: 50%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 /* FOOTER */
 footer{
