@@ -66,6 +66,7 @@ header{
 .nav{
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .nav img{
@@ -106,24 +107,16 @@ header{
 
 
 /* MAIN */
-/* main div{
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-} */
-
+/* demo application */
 .demo-application .container{
     flex-direction: column;
-    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
 }
 
 
-
-/* demo application */
 .box{
-    width: 80%;
     flex-direction: column;
-    min-height: 200px;
     align-items: center;
     background-color: skyblue;
     border-radius: 20px;
@@ -180,32 +173,33 @@ header{
 
 
 /* strategic planning */
-.strategic-planning div:first-child{
-    padding-top: 25px;
+.strategic-planning .container{
+    flex-direction: column;
+    max-width: 80%;
+    margin: 0 auto
 }
 
-.strategic-planning div{
+.strategic-planning .container div{
     flex-direction: column;
     align-items: center;
-    margin-top: 25px;
+    padding-bottom: 25px;
 }
 
-.strategic-planning div:nth-child(2){
-    align-items: flex-start;  
+.strategic-planning .container div:nth-child(2){
+    align-items: flex-start;
 }
 
 .strategic-planning h2, h3{
     margin: 20px 0px;
 }
 
-.strategic-planning div:last-child{
+.strategic-planning .container div:last-child{
     background-color: white;
     border-radius: 20px;
     padding: 25px 25px;
     line-height: 2;
     font-style: italic;
     text-align: center;
-    margin-bottom: 50px;
 }
 
 .fa-arrow-down{
@@ -218,10 +212,18 @@ header{
 
 
 /* testimonials */
-.testimonials div{
-    margin: 25px 0px;
+.testimonials .container{
+    flex-direction: column;
+    max-width: 80%;
+    margin: 0 auto
+}
+
+.testimonials .container div{
+    flex-direction: column;
+    margin-bottom: 25px;
     text-align: center;
-    min-height: 300px;
+    min-height: 250px;
+    align-items: center;
 }
 
 .testimonials div *{
@@ -246,7 +248,17 @@ header{
 }
 
 
-/* benfits */
+/* benefits */
+.benefits .container{
+    flex-direction: column;
+    max-width: 80%;
+    margin: 0 auto
+}
+
+.benefits .container div{
+    flex-direction: column;
+}
+
 .benefits .white h2{
     text-align: center;
     margin-top: 25px;
@@ -269,10 +281,6 @@ header{
     background-color: white;
 }
 
-.benefits .flex{
-    flex-direction: column;
-}
-
 .benefits a{
     width: 50%;
     text-align: center;
@@ -283,6 +291,12 @@ header{
 
 
 /* about us */
+.about-us .container{
+    flex-direction: column;
+    max-width: 80%;
+    margin: 0 auto
+}
+
 .about-us h2{
     margin-bottom: 25px;
     color: #9593e6;
@@ -306,12 +320,12 @@ header{
 }
 
 .about-us img{
-    width: 75%;
+    width: 250px;
     height: auto;
     border-radius: 100%;
 }
 
-.about-us{
+.about-us .container{
     text-align: left;
 }
 
@@ -324,12 +338,15 @@ header{
     padding-right: 5px;
 }
 
-.about-us .margin-tb25{
-    margin-bottom: 50px;
-}
-
 
 /* get started */
+.get-started .container{
+    flex-direction: column;
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .get-started .container *:not(span:first-child){
     margin-bottom: 25px;
 }
@@ -338,9 +355,6 @@ header{
     margin-top: 25px;
 }
 
-.get-started .container{
-    text-align: center;
-}
 
 .get-started .back-white{
     color: #9593e6;

@@ -1,7 +1,13 @@
-@media screen and (min-width: 480px){
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .container{
+        max-width: 750px;
+    }
+    
+    /* demo application */
     .demo-application .container{
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     .box:first-child{
@@ -12,4 +18,11 @@
         width: 30%;
     }
 
+    /* testimonials */
+    .testimonials .container div:not(div:first-child){
+        flex-direction: row;
+        text-align: left;
+    }
+
+    /* benefits */
 }
