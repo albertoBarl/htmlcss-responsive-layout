@@ -1,2 +1,15 @@
 @media screen and (min-width: 480px){
+    .demo-application .container{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .box:first-child{
+        width: 60%;
+    }
+
+    .box{
+        width: 30%;
+    }
+
 }

@@ -106,21 +106,27 @@ header{
 
 
 /* MAIN */
-main div{
+/* main div{
     flex-direction: column;
     align-items: center;
     width: 100%;
+} */
+
+.demo-application .container{
+    flex-direction: column;
+    align-items: center;
 }
 
 
 
 /* demo application */
 .box{
+    width: 80%;
     flex-direction: column;
+    min-height: 200px;
     align-items: center;
     background-color: skyblue;
     border-radius: 20px;
-    min-height: 200px;
     text-align: center;
     margin-bottom: 25px;
 }
@@ -157,28 +163,19 @@ main div{
 
 .box-head h3{
     font-size: x-large;
-    margin: 25px 0px;
 }
 
 .box p:not(.box:first-child p){
     padding-bottom: 25px;
 }
 
-main div:first-child .box:first-child{
+.demo-application .box:first-child *:not(.fa-apple){
     margin-top: 25px;
 }
 
-main div:first-child .box:first-child *:not(.fa-apple){
-    margin-top: 25px;
-}
-
-main div:first-child .box:first-child img{
+.demo-application .box:first-child img{
     width: 80%;
     height: auto;
-}
-
-.box:last-child{
-    margin-bottom: 50px;
 }
 
 
