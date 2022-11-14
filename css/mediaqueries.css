@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) and (max-width: 991px){
+@media screen and (min-width: 768px){
     .container{
         max-width: 750px;
     }
@@ -51,5 +51,39 @@
 
     .about-us .container div:last-child{
         width: calc(40% - 25px);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    /* HEADER */
+    .nav i{
+        display: none;
+    }
+
+    .nav ul{
+        display: flex;
+    }
+
+
+
+    /* demo application */
+    .box:first-child{
+        flex-direction: row;
+        width: 65%;
+    }
+
+    /* strategic planning */
+    .strategic-planning .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .strategic-planning .container div{
+        width: calc(100% / 2 - 25px);
+    }
+
+    /* benefits */
+    .benefits .container .back-white{
+        width: calc(100% / 3 - 25px)
     }
 }

@@ -88,7 +88,7 @@ header{
 }
 
 .nav li:last-child{
-    background-color: grey;
+    background-color: white;
     border: none;
     border-radius: 20px;
     padding: 10px;
@@ -96,6 +96,11 @@ header{
 
 .nav ul a{
     color: white;
+    text-decoration: none;
+}
+
+.nav ul li:last-child a{
+    color: black;
     text-decoration: none;
 }
 
@@ -128,9 +133,15 @@ header{
     text-align: left;
 }
 
+.box div{
+    flex-direction: column;
+    align-items: center;
+}
+
 .box a{
     text-decoration: none;
     background-color: #0084fd;
+    width: fit-content;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -167,7 +178,7 @@ header{
 }
 
 .demo-application .box:first-child img{
-    width: 80%;
+    width: 250px;
     height: auto;
 }
 
@@ -185,7 +196,7 @@ header{
     padding-bottom: 25px;
 }
 
-.strategic-planning .container div:nth-child(2){
+.strategic-planning .container div:nth-child(1){
     align-items: flex-start;
 }
 
