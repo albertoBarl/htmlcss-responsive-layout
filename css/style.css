@@ -282,7 +282,7 @@ header{
 }
 
 .benefits a{
-    width: 50%;
+    width: 25%;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -342,7 +342,7 @@ header{
 /* get started */
 .get-started .container{
     flex-direction: column;
-    max-width: 80%;
+    max-width: 60%;
     margin: 0 auto;
     text-align: center;
 }
@@ -359,6 +359,8 @@ header{
 .get-started .back-white{
     color: #9593e6;
     text-decoration: none;
+    width: 50%;
+    margin: 0 auto;
 }
 
 .get-started h3{
@@ -375,7 +377,6 @@ header{
 /* FOOTER */
 footer{
     background-color: #333333;
-    width: 100%;
 }
 
 footer *:not(a){
@@ -385,6 +386,7 @@ footer *:not(a){
 .footer{
     flex-direction: column;
     text-align: center;
+    max-width: 60%;
 }
 
 footer a{
