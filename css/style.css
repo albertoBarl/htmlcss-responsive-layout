@@ -9,17 +9,16 @@
     display: flex;
 }
 
-.column{
-    flex-direction: column;
-    align-items: center;
-}
-
 .black{
     color: black;
 }
 
 .white{
     color: white;
+}
+
+.back-purple{
+    background-color: #9593e6;
 }
 
 .margin-c{
@@ -107,21 +106,15 @@ header{
 
 
 /* MAIN */
-main{
-    display: flex;
-    flex-direction: column;
-}
-
 main div{
     flex-direction: column;
     align-items: center;
     width: 100%;
 }
 
-.back-purple{
-    background-color: #9593e6;
-}
 
+
+/* demo application */
 .box{
     flex-direction: column;
     align-items: center;
@@ -132,8 +125,6 @@ main div{
     margin-bottom: 25px;
 }
 
-
-/* demo application */
 .box:first-child{
     text-align: left;
 }
